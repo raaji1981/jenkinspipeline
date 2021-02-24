@@ -2,7 +2,7 @@ def gv
 pipeline{
   agent any
    parameters{
-    choice(name:'os version',choices:['linux','windows','Mac'],description:'')
+    choice(name:'osversion',choices:['linux','windows','Mac'],description:'')
     booleanParam(name:'executeTest',defaultValue:true,description:'')
     }
     stages{
