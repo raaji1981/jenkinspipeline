@@ -16,5 +16,4 @@ def deployApp()
    echo ' deploying the app'
    echo "versions are ${params.osversion}"
 }
-
 return this
